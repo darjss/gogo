@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+header {
+  height: 88px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.options {
+  display: flex;
+  position: relative;
+  display: inline-block;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.drop {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.drop-options {
+  color: #297cf0;
+  list-style-type: disc;
+  width: 110px;
+}
+.drop-options p {
+  color: black;
+}
+.drop-content {
+  position: absolute;
+  padding: 15px 40px 15px 25px;
+  z-index: 1;
+  display: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.drop-content ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.options:hover .drop-content {
+  display: flex;
+  gap: 50px;
+}
+.drop-options p:hover {
+  color: #297cf0;
+  padding-left: 5px;
+}
+.widget {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 120px;
+  height: 40px;
+}
+footer {
+  background-color: beige;
+  height: 200px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.home {
+  width: 93%;
+  height: 768px;
+  margin: 0 auto;
+  background-color: lightcoral;
+}
+.story {
+  height: 280px;
+  background-color: lightgoldenrodyellow;
+}
+.main {
+  display: flex;
+}
+.daily {
+  width: 70%;
+  height: 1000px;
+  background-color: lightgreen;
+}
+.side {
+  width: 30%;
+  height: 500px;
+}
+.hl {
+  width: 100%;
+  height: 500px;
+  background-color: lightpink;
+}
+.trend {
+  width: 100%;
+  height: 500px;
+  background-color: lightsalmon;
+}
+.interview {
+  width: 100%;
+  height: 550px;
+  background-color: lightseagreen;
+}
+.lifestyle {
+  width: 100%;
+  height: 460px;
+  background-color: lightsteelblue;
+}
+.tech {
+  width: 100%;
+  height: 350px;
+  background-color: lightyellow;
+}
+.comic {
+  width: 100%;
+  height: 380px;
+  background-color: lightskyblue;
+}
+.watch {
+  background-color: darkgray;
+  height: 767px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.videos {
+  width: 1200px;
+  height: 650px;
+  background-color: lightcyan;
+}
+.home-big-card {
+  width: 100%;
+  height: 50%;
+  background-color: lightblue;
+}
+.home-card-container {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-small-card {
+  width: 24%;
+  height: 80%;
+  background-color: lightgreen;
+}
+.story-container {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.story-card {
+  width: 15%;
+  height: 80%;
+  background-color: lightskyblue;
+}
+.daily-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90%;
+  gap: 10px;
+  align-items: center;
+}
+.daily-card {
+  width: 90%;
+  height: 10%;
+  background-color: lightcoral;
+}
+.hl-card {
+  width: 80%;
+  height: 40%;
+  background-color: lightseagreen;
+}
+.side-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.trend-card {
+  width: 90%;
+  height: 20%;
+  background-color: lightcyan;
+}
+
+.interview-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  gap: 15px;
+}
+.interview-big-card {
+  width: 50%;
+  height: 100%;
+  background-color: lightgoldenrodyellow;
+}
+.interview-small-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.interview-small-card {
+  width: 45%;
+  height: 48%;
+  background-color: lightpink;
+}
+.four-container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.lifestyle-card {
+  width: 25%;
+  height: 80%;
+  background-color: lightseagreen;
+}
+.tech-card {
+  width: 25%;
+  height: 70%;
+  background-color: lightsalmon;
+}
+.comic-card {
+  width: 49%;
+  height: 95%;
+  background-color: lightgreen;
+}
+.video-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.video-card {
+  height: 30%;
+  width: 23%;
+  background-color: lightseagreen;
+}
